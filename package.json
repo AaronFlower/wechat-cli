@@ -1,0 +1,34 @@
+{
+  "name": "wechat-cli",
+  "version": "1.0.0",
+  "description": "A simple CLI for scaffolding wechat/weixin small application projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AaronFlower/wechat-cli.git"
+  },
+  "keywords": [
+    "wechat",
+    "weixin",
+    "small",
+    "application",
+    "cli",
+    "weapp",
+    "xiaochengxu"
+  ],
+  "author": "AaronFlower",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AaronFlower/wechat-cli/issues"
+  },
+  "homepage": "https://github.com/AaronFlower/wechat-cli#readme",
+  "dependencies": {
+    "commander": "^2.9.0"
+  },
+  "bin": {
+  	"wechat": "bin/wechat.js"
+  }
+}
